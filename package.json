@@ -1,0 +1,15 @@
+{
+  "name": "thank-you-next-codealong",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "cp -R packages/legacy dist/legacy && yarn workspace modern build"
+  },
+  "repository": "https://github.com/ninademuth/thank-you-next-codealong.git",
+  "author": "Nina Demuth <nina.demuth@gmx.at>",
+  "license": "MIT"
+}
